@@ -1,7 +1,8 @@
-
 package Modelo;
 
 public class User {
+
+    private int idUser;
     private String User_name;
     private String User_lastName;
     private String User_birthday;
@@ -11,6 +12,14 @@ public class User {
     private String User_pass;
     private boolean User_status;
     private String User_dateCreation;
+
+    public int getIdUser() {
+        return idUser;
+    }
+
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
+    }
 
     public String getUser_name() {
         return User_name;
@@ -83,5 +92,5 @@ public class User {
     public void setUser_dateCreation(String User_dateCreation) {
         this.User_dateCreation = User_dateCreation;
     }
-        
+
 }
